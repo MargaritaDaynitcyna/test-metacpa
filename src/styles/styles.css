@@ -106,7 +106,7 @@ img {
 .header__text {
   padding-top: 12px;
   text-align: center;
-  color: red;
+  color: #ff3838;
   letter-spacing: 2px;
 }
 
@@ -207,7 +207,12 @@ img {
 
 @media (max-width: 600px) {
   .desc__plus {
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -626,6 +631,13 @@ img {
   margin-top: 20px;
 }
 
+@media (max-width: 600px) {
+  .comfort__list {
+    text-align: start;
+    display: inline-block;
+  }
+}
+
 .comfort__item {
   padding-bottom: 10px;
   font-size: 16px;
@@ -714,6 +726,13 @@ img {
   margin-top: 20px;
 }
 
+@media (max-width: 600px) {
+  .safer__list {
+    text-align: start;
+    display: inline-block;
+  }
+}
+
 .safer__item {
   padding-bottom: 10px;
   font-size: 16px;
@@ -775,6 +794,13 @@ img {
 
 .quality__list {
   margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .quality__list {
+    text-align: start;
+    display: inline-block;
+  }
 }
 
 .quality__item {
@@ -1030,7 +1056,7 @@ img {
 
 @media (max-width: 600px) {
   .price__price {
-    font-size: 60px;
+    font-size: 75px;
   }
 }
 

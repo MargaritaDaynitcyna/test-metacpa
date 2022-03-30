@@ -106,7 +106,7 @@ $colorLightGray: #f5f5f5;
     &__text {
         padding-top: 12px;
         text-align: center;
-        color: red;
+        color: #ff3838;
         letter-spacing: 2px;
 
         @media (max-width: 600px) {
@@ -200,7 +200,8 @@ $colorLightGray: #f5f5f5;
 .desc {
     &__plus {
         @media (max-width: 600px) {
-            text-align: center;
+            display: flex;
+            justify-content: center;
         }
     }
 
@@ -524,6 +525,11 @@ $colorLightGray: #f5f5f5;
 
     &__list {
         margin-top: 20px;
+
+        @media (max-width: 600px) {
+            text-align: start;
+            display: inline-block;
+        }
     }
 
     &__item {
@@ -596,6 +602,11 @@ $colorLightGray: #f5f5f5;
 
     &__list {
         margin-top: 20px;
+
+        @media (max-width: 600px) {
+            text-align: start;
+            display: inline-block;
+        }
     }
 
     &__item {
@@ -649,6 +660,11 @@ $colorLightGray: #f5f5f5;
 
     &__list {
         margin-top: 20px;
+
+        @media (max-width: 600px) {
+            text-align: start;
+            display: inline-block;
+        }
     }
 
     &__item {
@@ -855,7 +871,7 @@ $colorLightGray: #f5f5f5;
         }
 
         @media (max-width: 600px) {
-            font-size: 60px;
+            font-size: 75px;
         }
     }
 
